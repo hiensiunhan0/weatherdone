@@ -124,10 +124,7 @@ class MainActivity : AppCompatActivity() {
         binding.lottieAnimationView.playAnimation()
     }
 
-    private fun date(): String {
-        val sdf = SimpleDateFormat("dd MMMM yyyy", Locale.getDefault())
-        return sdf.format(Date())
-    }
+   
 
     private fun time(timestamp: Long): String {
         val sdf = SimpleDateFormat("HH:mm", Locale.getDefault())
